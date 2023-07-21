@@ -1,0 +1,70 @@
+.navbar {
+    background-color: rgba(250, 238, 217, 1);
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.logo {
+    align-items: center;
+}
+
+.burger {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin: 0;
+    padding: 0;
+}
+
+.burger p {
+    font-size: 3cqmax;
+    font-family: meow;
+    padding: 10px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+
+h1 {
+    font-size: 7rem;
+    font-family: title;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 20px
+    
+}
+
+.colour-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.logo-background {
+    background-color: rgba(250, 238, 217, 1);
+}
+
+@media (max-width: 768px) {
+    .burger {
+        min-height: 60vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+    .burger p {
+        font-size: calc(0.2rem + 3.3vw);
+        width: 300px;
+    }
+}
+
+@font-face {
+    font-family: title;
+    src: url(Titlefont.ttf);
+}
+
+@font-face {
+    font-family: meow;
+    src: url(WesternBangBang-Regular.ttf);
+}
