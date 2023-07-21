@@ -4,7 +4,6 @@
     padding: 10px;
 }
 
-
 .burger {
     background-size: cover;
     min-height: 100vh;
@@ -29,7 +28,6 @@
     font-family: title;
     background-color: rgba(0, 0, 0, .8);
     padding: 20px
-    
 }
 
 .colour-overlay {
@@ -61,17 +59,37 @@
     color: rgba(0, 0, 0, 1);
 }
 
+.schedule {
+    font-size: 2em;
+}
+
+.find-p {
+    font-size: 2em;
+    font-family: meow;
+}
+
+.schedule {
+    width: 700px;
+}
+
+.input-group-append {
+    cursor: pointer;
+  }
+
 @media (max-width: 768px) {
     .burger {
         min-height: 60vh;
     }
+
     .burger-title {
         font-size: calc(1.525rem + 3.3vw);
     }
+
     .burger-p {
         font-size: calc(0.2rem + 3.3vw);
         width: 300px;
     }
+
     .menu-p {
         font-size: calc(0.2rem + 3.3vw);
         width: 400px;
@@ -79,6 +97,14 @@
 
     .menu-title {
         font-size: calc(3rem + 3.3vw);
+    }
+    .find-p {
+        font-size: calc(0.2rem + 3.3vw);
+    }
+
+    .schedule {
+        font-size: calc(0.2rem + 3.3vw);
+        width: 200px;
     }
 }
 
